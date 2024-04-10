@@ -39,7 +39,7 @@ int leastWeightCapacity(vector<int> &weights, int d) {
 
 int main()
 {
-    vector<int> weights = {5, 4, 5, 2, 3, 4, 5, 6};
+    vector<int> weights = {3,5,4,6,7,3,5,9};
     int d = 5;
     int ans = leastWeightCapacity(weights, d);
     cout << "The minimum capacity should be: " << ans << "\n";
