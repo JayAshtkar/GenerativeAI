@@ -14,7 +14,7 @@ jobs:
         with:
           github-token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           open-api-key: ${{ secrets.CHATGPT_API_KEY }}
-          max-prompt-tokens: '1000'
+          max-prompt-tokens: '10000'
           ignore-paths: '.github/*, src/, package*.json, .env*'
           model: 'gpt-3.5-turbo'
           temperature: 1
