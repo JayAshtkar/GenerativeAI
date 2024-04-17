@@ -10,7 +10,7 @@ jobs:
     name: Add Comment
     steps:
       - name: Add Comment 
-        uses: jayS202/modified-pullrequest-summarizer@main
+        uses: manojsharmadcx/GenAICX-PullRequestSummarizer@main
         with:
           github-token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           azure-api-key: ${{ secrets.AZURE_API_KEY }}
